@@ -18,6 +18,19 @@
 		2A37F9F318E37536009FAAA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F9F218E37536009FAAA7 /* ViewController.m */; };
 		2A37F9F518E37536009FAAA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F9F418E37536009FAAA7 /* Images.xcassets */; };
 		2A37FA0F18E375D8009FAAA7 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A37F97718E37270009FAAA7 /* libCocoaLumberjack.a */; };
+		4E0845C51A06FCB600504330 /* CocoaLumberjack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5D89BAA199474A900C180CF /* CocoaLumberjack.h */; };
+		4E0845C61A06FCB600504330 /* DDLogMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5D89BAC199474A900C180CF /* DDLogMacros.h */; };
+		4E0845C71A06FCB600504330 /* DDAssertMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5D89BAB199474A900C180CF /* DDAssertMacros.h */; };
+		4E0845C81A06FCB600504330 /* DDLog+LOGV.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20A6192A0CB500AB7171 /* DDLog+LOGV.h */; };
+		4E0845C91A06FCB600504330 /* DDAbstractDatabaseLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C209C192A0CB500AB7171 /* DDAbstractDatabaseLogger.h */; };
+		4E0845CA1A06FCB600504330 /* DDASLLogCapture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C209E192A0CB500AB7171 /* DDASLLogCapture.h */; };
+		4E0845CB1A06FCB600504330 /* DDASLLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20A0192A0CB500AB7171 /* DDASLLogger.h */; };
+		4E0845CC1A06FCB600504330 /* DDFileLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20A2192A0CB500AB7171 /* DDFileLogger.h */; };
+		4E0845CD1A06FCB600504330 /* DDLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20A4192A0CB500AB7171 /* DDLog.h */; };
+		4E0845CE1A06FCB600504330 /* DDTTYLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20A7192A0CB500AB7171 /* DDTTYLogger.h */; };
+		4E0845CF1A06FCB600504330 /* DDContextFilterLogFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20AA192A0CB500AB7171 /* DDContextFilterLogFormatter.h */; };
+		4E0845D01A06FCB600504330 /* DDDispatchQueueLogFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20AC192A0CB500AB7171 /* DDDispatchQueueLogFormatter.h */; };
+		4E0845D11A06FCB600504330 /* DDMultiFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20AE192A0CB500AB7171 /* DDMultiFormatter.h */; };
 		DA9C209B192A04E100AB7171 /* Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C209A192A04E100AB7171 /* Formatter.m */; };
 		DA9C20B0192A0CB500AB7171 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C209D192A0CB500AB7171 /* DDAbstractDatabaseLogger.m */; };
 		DA9C20B1192A0CB500AB7171 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C209F192A0CB500AB7171 /* DDASLLogCapture.m */; };
@@ -52,6 +65,31 @@
 			remoteInfo = CocoaLumberjack;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E0845C41A06FBFD00504330 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(TARGET_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4E0845C51A06FCB600504330 /* CocoaLumberjack.h in CopyFiles */,
+				4E0845C61A06FCB600504330 /* DDLogMacros.h in CopyFiles */,
+				4E0845C71A06FCB600504330 /* DDAssertMacros.h in CopyFiles */,
+				4E0845C81A06FCB600504330 /* DDLog+LOGV.h in CopyFiles */,
+				4E0845C91A06FCB600504330 /* DDAbstractDatabaseLogger.h in CopyFiles */,
+				4E0845CA1A06FCB600504330 /* DDASLLogCapture.h in CopyFiles */,
+				4E0845CB1A06FCB600504330 /* DDASLLogger.h in CopyFiles */,
+				4E0845CC1A06FCB600504330 /* DDFileLogger.h in CopyFiles */,
+				4E0845CD1A06FCB600504330 /* DDLog.h in CopyFiles */,
+				4E0845CE1A06FCB600504330 /* DDTTYLogger.h in CopyFiles */,
+				4E0845CF1A06FCB600504330 /* DDContextFilterLogFormatter.h in CopyFiles */,
+				4E0845D01A06FCB600504330 /* DDDispatchQueueLogFormatter.h in CopyFiles */,
+				4E0845D11A06FCB600504330 /* DDMultiFormatter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2A37F97718E37270009FAAA7 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -263,6 +301,7 @@
 			buildPhases = (
 				2A37F97318E37270009FAAA7 /* Sources */,
 				E5CEB371199496F200EDC36E /* Headers */,
+				4E0845C41A06FBFD00504330 /* CopyFiles */,
 			);
 			buildRules = (
 			);
